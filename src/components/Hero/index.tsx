@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="hero w-full h-screen flex items-center justify-center md:px-[250px] px-5 relative">
         <Navbar />
-        <div className="flex w-full flex-col gap-8 z-50 items-center justify-center fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+        <div className="flex w-full flex-col gap-8 z-50 text-center items-center justify-center fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] px-3">
             <span className="md:text-4xl text-3xl font-semibold text-orange-100">Hi, I'm Abdul Hamid</span>
             <span className="md:text-7xl text-6xl font-semibold text-orange-200">Frontend Developer</span>
             <p className="text-gray-200 md:max-w-[600px] max-w-[450px] leading-7 text-center"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum qui, iusto dolores eligendi animi quia, eaque unde tempora asperiores dolor temporibus provident dolorum architecto voluptate, <br/> fuga obcaecati est id sed. </p>
